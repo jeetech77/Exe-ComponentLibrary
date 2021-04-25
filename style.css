@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
+
+:root {
+    --primary-color: #7C3AED;
+    --grey-color: #E5E7EB;
+}
+*{
+    /* margin: 0%;
+    padding: 0%;
+    box-sizing: border-box; */
+}
+
+body {
+    font-family: 'Ubuntu',
+        sans-serif;
+}
+
+/* Heading stying */
+
+h1 {
+    text-align: center;
+    padding: 2rem;
+}
+
+.text {
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Typography styling */
+
+hr {
+    border: 1px solid black;
+}
+
+.heading_inside {
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Styling Containers */
+
+.container {
+    padding: 1rem;
+    text-align: center;
+}
+
+.container-center {
+    margin: auto;
+    max-width: 600px;
+}
+
+/* Styling Links */
+
+.links {
+    text-decoration: none;
+    padding: .5rem;
+    color: black;
+}
+
+.primary_link {
+    background-color: var(--primary-color);
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.secondary_link {
+    background-color: #fff;
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+}
+
+/* Styling Lists */
+
+
+.lists {
+    padding: 1rem;
+}
+
+.inline-list .list-items{
+    display: inline;
+    margin: 0 1rem;
+}
+
+/* Styling Navbar */
+
+.navbar{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.navbar .brand-title{
+    color: white;
+}
+.navbar .links{
+    list-style: none;
+    text-align: right;
+}
+.inline-list-items{
+    display: inline;
+    margin: 1rem;
+}
+.nav-links{
+    color: #fff;
+    text-decoration: none;
+    display: inline;
+}
+
+/* Styling Header  */
+
+.container .hero-img{
+    max-width: 30rem;
+}
+section{
+    padding: 2rem 0;
+    text-align: center;
+}
+section .sec-heading{
+    text-align: center;
+}
+.sec-off-white{
+    background-color: var(--grey-color);
+}
+
+/* Styling Footer */
+footer{
+    background-color: var(--primary-color);
+    padding: 2rem;
+    border-top-right-radius: 1rem;
+    text-align: center;
+    color: white;
+}
