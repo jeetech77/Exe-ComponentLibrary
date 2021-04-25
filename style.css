@@ -4,11 +4,6 @@
     --primary-color: #7C3AED;
     --grey-color: #E5E7EB;
 }
-*{
-    /* margin: 0%;
-    padding: 0%;
-    box-sizing: border-box; */
-}
 
 body {
     font-family: 'Ubuntu',
@@ -77,30 +72,34 @@ hr {
     padding: 1rem;
 }
 
-.inline-list .list-items{
+.inline-list .list-items {
     display: inline;
     margin: 0 1rem;
 }
 
 /* Styling Navbar */
 
-.navbar{
+.navbar {
     background-color: var(--primary-color);
     padding: 1rem;
     border-bottom-left-radius: 1rem;
 }
-.navbar .brand-title{
+
+.navbar .brand-title {
     color: white;
 }
-.navbar .links{
+
+.navbar .links {
     list-style: none;
     text-align: right;
 }
-.inline-list-items{
+
+.inline-list-items {
     display: inline;
     margin: 1rem;
 }
-.nav-links{
+
+.nav-links {
     color: #fff;
     text-decoration: none;
     display: inline;
@@ -108,22 +107,25 @@ hr {
 
 /* Styling Header  */
 
-.container .hero-img{
+.container .hero-img {
     max-width: 30rem;
 }
-section{
+
+section {
     padding: 2rem 0;
     text-align: center;
 }
-section .sec-heading{
+
+section .sec-heading {
     text-align: center;
 }
-.sec-off-white{
+
+.sec-off-white {
     background-color: var(--grey-color);
 }
 
 /* Styling Footer */
-footer{
+footer {
     background-color: var(--primary-color);
     padding: 2rem;
     border-top-right-radius: 1rem;
