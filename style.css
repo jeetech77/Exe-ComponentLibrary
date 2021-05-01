@@ -132,7 +132,7 @@ hr {
 }
 /* Styling Header  */
 
-.container .hero-img {
+.hero-img {
     max-width: 30rem;
     margin-top: 2rem;
 }
@@ -144,10 +144,14 @@ section {
 
 section .sec-heading {
     text-align: center;
+    font-size: larger;
+    text-transform:uppercase;
 }
 section .sec-text{
     min-height: 10vh;
     margin: 1rem 0;
+    font-size: large;
+    font-weight: 500;
 }
 .sec-off-white {
     background-color: var(--grey-color);
