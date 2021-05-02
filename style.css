@@ -2,20 +2,24 @@
 
 
 :root {
-    --primary-color:#03203C;
+    --primary-color: #03203C;
     --grey-color: #E5E7EB;
+    --head-color: #181458;
+
 }
-*{
-    transition: .3s ease-in-out;
+
+* {
+    transition: .3s linear;
     box-sizing: border-box;
 }
+
 body {
     font-family: 'Ubuntu',
         sans-serif;
 }
 
 
-/* Heading stying */
+/* TODO: Heading stying */
 
 h1 {
     text-align: center;
@@ -27,7 +31,7 @@ h1 {
     text-align: center;
 }
 
-/* Typography styling */
+/* TODO: Typography styling */
 
 hr {
     border: 1px solid black;
@@ -38,7 +42,7 @@ hr {
     padding: 1rem;
 }
 
-/* Styling Containers */
+/* TODO: Styling Containers */
 
 .container {
     padding: 1rem;
@@ -49,9 +53,11 @@ hr {
     margin: auto;
     max-width: 600px;
 }
-.container .spantext{
+
+.spantext {
+    text-transform: uppercase;
     display: block;
-    color: var(--primary-color);
+    color: var(--head-color);
 }
 
 /* TODO: Styling Links  */
@@ -61,34 +67,33 @@ hr {
     padding: .5rem;
     color: white;
 }
+
 .primary-link {
     background-color: var(--primary-color);
     border: 1px solid black;
     border-radius: 4px;
-    max-width: 5rem;
-    margin: auto;
-    margin-top: 2rem;
 }
-.primary-link:hover{
+
+.primary-link:hover {
     background-color: #fff;
     color: var(--primary-color);
 }
 
 .secondary-link {
-    margin-top: 2rem;
     background-color: #fff;
     border: 1px solid var(--primary-color);
     border-radius: 4px;
     color: var(--primary-color);
 }
-.secondary-link:hover{
+
+.secondary-link:hover {
     background-color: var(--primary-color);
     color: white;
 }
 
 
 
-/* Styling Lists */
+/* TODO: Styling Lists */
 
 
 .lists {
@@ -100,7 +105,7 @@ hr {
     margin: 0 1rem;
 }
 
-/* Styling Navbar */
+/* TODO: Styling Navbar */
 
 .navbar {
     background-color: var(--primary-color);
@@ -126,11 +131,45 @@ hr {
     color: #fff;
     text-decoration: none;
     display: inline;
+    margin: 1rem;
 }
-.nav-links:hover{
-    color: black;
+
+@media screen and (max-width :480px) {
+    .footer-heading {
+        text-align: center;
+        margin: auto;
+    }
+
+    .nav-links {
+        margin: 2rem auto;
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+
+    .buttons {
+        display: block;
+        margin: 1rem;
+    }
+
+    .navbar .brand-title {
+        text-align: center;
+    }
+
+    .nav-links:hover {
+        color: red;
+        /* text-decoration: underline; */
+        border: none;
+    }
 }
-/* Styling Header  */
+
+.nav-links:hover {
+    color: aquamarine;
+    text-decoration: none;
+    border-bottom: 1px solid aquamarine;
+}
+
+/* TODO: Styling Header  */
 
 .hero-img {
     max-width: 30rem;
@@ -145,19 +184,21 @@ section {
 section .sec-heading {
     text-align: center;
     font-size: larger;
-    text-transform:uppercase;
+    text-transform: uppercase;
 }
-section .sec-text{
+
+section .sec-text {
     min-height: 10vh;
     margin: 1rem 0;
     font-size: large;
     font-weight: 500;
 }
+
 .sec-off-white {
     background-color: var(--grey-color);
 }
 
-/* Styling Footer */
+/* TODO: Styling Footer */
 footer {
     margin-top: 1rem;
     background-color: var(--primary-color);
@@ -166,7 +207,12 @@ footer {
     text-align: center;
     color: white;
 }
-footer .footer-heading{
+
+footer .nav-links {
+    float: none;
+}
+
+footer .footer-heading {
     font-size: 1.5rem;
     font-weight: bold;
 }
