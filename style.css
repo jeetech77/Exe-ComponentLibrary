@@ -131,7 +131,6 @@ hr {
     color: #fff;
     text-decoration: none;
     display: inline;
-    margin: 1rem;
 }
 
 @media screen and (max-width :480px) {
@@ -141,10 +140,8 @@ hr {
     }
 
     .nav-links {
-        margin: 2rem auto;
         display: block;
         text-align: center;
-        margin: auto;
     }
 
     .buttons {
