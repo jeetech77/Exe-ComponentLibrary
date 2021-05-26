@@ -48,6 +48,9 @@ hr {
     padding: 1rem;
     text-align: center;
 }
+.container h1{
+    text-transform: uppercase;
+}
 
 .container-center {
     margin: auto;
