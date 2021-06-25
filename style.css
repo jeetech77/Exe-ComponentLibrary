@@ -209,6 +209,10 @@ footer .nav-links {
     float: none;
 }
 
+footer .non-bullet-list{
+    padding: 0%;
+}
+
 footer .footer-heading {
     font-size: 1.5rem;
     font-weight: bold;
