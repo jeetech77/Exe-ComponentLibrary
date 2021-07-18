@@ -112,7 +112,9 @@ hr {
     padding: 1rem;
     border-bottom-left-radius: 1rem;
 }
-
+.navbar .brand-link{
+    text-decoration: none;
+}
 .navbar .brand-title {
     color: white;
 }
